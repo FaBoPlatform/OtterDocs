@@ -440,6 +440,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      メモ
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -509,6 +518,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      メモ
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -543,7 +561,46 @@
 <p>ID 1〜6までのデバイスが認識できたら、成功です。画面は、白いアームのFollowerのアームを認識している画面です。白いFollowerアームはXL430-W250 2個とXC330-T288T 4個により構成さます。</p>
 <p><img alt="" src="../img/wizard004.jpg" /></p>
 <h2 id="_2">認識確認(黒いアーム)</h2>
-<p>黒いアームも同様の手順で認識しているか確認します。</p>
+<p>黒いアームも同様の手順で認識しているか確認します。黒いLeaderアームはXL330-M288T 6個により構成さます。</p>
+<p><img alt="" src="../img/wizard005.jpg" /></p>
+<h2 id="_3">メモ</h2>
+<p>WindowsはそのままCOM番号をメモしてください。OSX, Ubuntuは、lsコマンドでデバイス名を検索してください。</p>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>デバイス名(Windows)</th>
+<th>デバイス名(OSX)</th>
+<th>デバイス名(Ubuntu)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>右側Follower</td>
+<td>COM3</td>
+<td>ls /dev/tty.*で検索</td>
+<td>ls /dev/ttyUSB*で検索</td>
+</tr>
+<tr>
+<td>右側Leader</td>
+<td>COM4</td>
+<td>ls /dev/tty.*で検索</td>
+<td>ls /dev/ttyUSB*で検索</td>
+</tr>
+<tr>
+<td>左側Follower</td>
+<td>COM5</td>
+<td>ls /dev/tty.*で検索</td>
+<td>ls /dev/ttyUSB*で検索</td>
+</tr>
+<tr>
+<td>右側Leader</td>
+<td>COM6</td>
+<td>ls /dev/tty.*で検索</td>
+<td>ls /dev/ttyUSB*で検索</td>
+</tr>
+</tbody>
+</table>
 
 
 
